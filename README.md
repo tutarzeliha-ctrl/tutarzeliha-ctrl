@@ -1,50 +1,33 @@
-# tutarzeliba-ctrl
-Analytics Engineer | dbt, SQL, Python | Decision-Oriented Growth Analytics
+# Hi, I'm Zeliha 👋
 
-# Zeliha Tutar | Analytics Engineer
+Analytics Engineer with 8+ years in e-commerce operations. I build tested,
+monitored data pipelines and care about numbers people can trust.
 
-I focus on **decision-oriented analytics** — not reporting.
+🌐 [Portfolio](https://tutarzeliha-ctrl.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/zeliha-tutar-35a3013aa/) · 📄 [CV](https://tutarzeliha-ctrl.github.io/assets/Zeliha_Tutar_CV.pdf)
 
-I analyze funnels, revenue signals, and metric interactions to detect 
-hidden risks before they impact growth.
+## Featured project
 
-Instead of asking *"What changed?"*, I ask:
-**"Where is value quietly eroding?"**
+**[realtime-cdc-lakehouse](https://github.com/tutarzeliha-ctrl/realtime-cdc-lakehouse)**:
+PostgreSQL → Debezium → Kafka → DuckDB/Parquet → dbt → Airflow, running locally in Docker.
 
----
+- **v1.0 CDC:** transactional consumer; replaying the topic from the start produced no duplicate rows (verified live).
+- **v1.1 Analytics:** dbt models, SCD2 snapshot, daily status history and a reconciliation test against the source.
+- **v1.2 Orchestration:** Airflow freshness and connector checks; a stopped consumer and a stopped connector both raised alerts in live tests.
 
-## 🛠️ PROFESSIONAL DATA ARCHITECTURE
+## Other projects
 
-I build analytics using professional **dbt patterns**:
+| Project | What it shows |
+| :--- | :--- |
+| [sepetix-dbt-analytics](https://github.com/tutarzeliha-ctrl/sepetix-dbt-analytics) | dbt staging/mart models and tests on e-commerce data |
+| [ecommerce-retention-analytics](https://github.com/tutarzeliha-ctrl/ecommerce-retention-analytics) | dbt + BigQuery retention models, snapshot and CI |
+| [enterprise-data-observability](https://github.com/tutarzeliha-ctrl/enterprise-data-observability) | Airflow data quality checks, Streamlit dashboard, Slack alerts |
+| [data-quality-airflow-pipeline](https://github.com/tutarzeliha-ctrl/data-quality-airflow-pipeline) | Medallion pipeline with Polars, DuckDB and quality gates |
+| [agentic-data-quality](https://github.com/tutarzeliha-ctrl/agentic-data-quality) | Prototype: rule-based checks with LLM explanations |
 
-- **Staging Layer** (data cleaning & standardization)
-- **Mart Layer** (business logic & metrics)
-- **Automated Tests** (data quality assurance)
-- **Documentation** (auto-generated, version controlled)
+All projects are portfolio work, built locally or on free tiers and mostly on
+synthetic data. Each README lists what was tested and what was not.
 
-### Recent Project: sepetix-dbt-analytics
-- 5 data models (raw → staging → mart)
-- 10+ automated tests (unique, not_null, accepted_values)
-- BigQuery, complete documentation
-- [View on GitHub](https://github.com/tutarzeliba-ctrl/sepetix-dbt-analytics)
+## Stack
 
----
-
-## 📊 FOCUS AREAS
-
-- Funnel analysis (PV → ATC → Checkout → Order)
-- Cohort behavior & retention signals
-- AOV, refund, conversion interplay
-- E-commerce segmentation (city, category, customer)
-
----
-
-## 💻 TOOLS
-
-SQL • Python • dbt • BigQuery • Data Modeling
-
----
-
-## 🎯 MISSION
-
-Turn data into clear decisions — not just dashboards.
+**Core:** SQL · Python · dbt · Airflow · BigQuery
+**Used in projects:** PostgreSQL · Kafka · Debezium · DuckDB · Docker · PySpark · Streamlit · GitHub Actions
