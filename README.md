@@ -30,4 +30,5 @@ synthetic data. Each README lists what was tested and what was not.
 ## Stack
 
 **Core:** SQL · Python · dbt · Airflow · BigQuery
+
 **Used in projects:** PostgreSQL · Kafka · Debezium · DuckDB · Docker · PySpark · Streamlit · GitHub Actions
