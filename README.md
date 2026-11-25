@@ -3,7 +3,7 @@
 Analytics Engineer with 8+ years in e-commerce operations. I build tested,
 monitored data pipelines and care about numbers people can trust.
 
-🌐 [Portfolio](https://tutarzeliha-ctrl.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/zeliha-tutar-35a3013aa/) · 📄 [CV](https://tutarzeliha-ctrl.github.io/assets/Zeliha_Tutar_CV.pdf)
+🌐 [Portfolio](https://tutarzeliha-ctrl.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/zeliha-tutar/) · 📄 [CV](https://tutarzeliha-ctrl.github.io/assets/Zeliha_Tutar_CV.pdf)
 
 ## Featured project
 
